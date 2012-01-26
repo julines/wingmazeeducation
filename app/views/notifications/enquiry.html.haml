@@ -1,0 +1,31 @@
+Dear Sir/Madam,
+
+%p Thank you for your query regarding Wingmaze Education.  This is an automated reply from Wingmaze Education. 
+
+%p Your enquiry is below:
+
+%p="#{@enquiry_content || 'Content not found'}"
+
+%p Please allow 1-2 working days for a reply to your query.
+
+%p 
+  Information about our education services may be found at: 
+  = link_to "http://www.wingmazeeducation.com","http://www.wingmazeeducation.com"
+
+ 
+%p
+  Kind regards,
+  %br
+  Wingmaze Education
+
+%p
+  Wingmaze Education
+  %br
+  2/2 McFarlane Street
+  %br
+  Merrylands
+  %br
+  NSW 2160
+  %br
+  E-mail: 
+  =mail_to "contact@wingmazeeducation.com", nil, :replace_dot => '_dot_', :replace_at => '_at_'
