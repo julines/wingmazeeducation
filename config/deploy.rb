@@ -7,6 +7,9 @@ require 'bundler/capistrano'
 
 default_run_options[:pty] = true
 
+default_environment['PATH']="/home/wingmaze/bin:/home/wingmaze/.gems/bin:/home/wingmaze/.gems/bin:/.gems/bin:/home/wingmaze/.gems/bin:/usr/lib/ruby/gems/1.8/bin/:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games"
+default_environment['GEM_PATH']="/usr/lib/ruby/gems/1.8:/home/wingmaze/.gems"
+
 set :repository, "git@github.com:julines/wingmazeeducation.git" #GitHub clone URL
 set :scm, "git"
 set :scm_passphrase, "" #This is the passphrase for the ssh key on the server deployed to
