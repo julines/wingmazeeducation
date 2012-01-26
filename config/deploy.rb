@@ -3,7 +3,10 @@
 #
 #
 # GitHub settings #######################################################################################
+require 'bundler/capistrano'
+
 default_run_options[:pty] = true
+
 set :repository, "git@github.com:julines/wingmazeeducation.git" #GitHub clone URL
 set :scm, "git"
 set :scm_passphrase, "" #This is the passphrase for the ssh key on the server deployed to
@@ -40,6 +43,11 @@ default_run_options[:pty] = true # Forgo errors when deploying from windows
 set :use_sudo, false
  
 #########################################################################################################
+namespace :deploy do
+  task :restart do
+    run "touch #{current_path}/tmp/restart.txt"
+  end
+end 
  
 #for use with shared files (e.g. config files)
 after "deploy:update_code" do
