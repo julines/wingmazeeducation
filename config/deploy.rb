@@ -2,12 +2,13 @@ default_run_options[:pty] = true
 
 # be sure to change these
 set :user, 'wingmaze'
-set :domain, 'wingmazeeducation.com'
+set :domain, 'lisbon.dreamhost.com'
+set :applicationdir, 'wingmazeeducation.com'
 set :application, 'wingmazeeducation'
 
 # the rest should be good
-set :repository,  "#{user}@#{domain}:git/#{application}.git"
-set :deploy_to, "/home/#{user}/#{domain}"
+set :repository,  "git@github.com:julines/wingmazeeducation.git"
+set :deploy_to, "/home/#{user}/#{applicationdir}"
 set :deploy_via, :remote_cache
 set :scm, 'git'
 set :branch, 'master'
