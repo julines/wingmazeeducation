@@ -42,6 +42,7 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
+  host: mysql.wingmazeeducation.com
   database: wingmaze_production
   pool: 5
   username: wingmaze_production
