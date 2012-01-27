@@ -10,6 +10,6 @@ class Notifications < ActionMailer::Base
     @enquiry_email = enquiry.email
     @enquiry_content = enquiry.content
 
-    mail :to => enquiry.email, :cc => "julines@gmail.com", :bcc => "julines@gmail.com", :subject => "[Wingmaze Education]  Thank you for your enquiry", :date => Time.now
+    mail :to => enquiry.email, :cc => "contact@wingmazeeducation.com", :subject => "[Wingmaze Education]  Thank you for your enquiry", :date => Time.now
   end
 end

@@ -45,6 +45,6 @@ production:
   host: mysql.wingmazeeducation.com
   database: wingmaze_production
   pool: 5
-  username: wingmaze_production
+  username: wingmaze_prod
   password: w1ngm4z3b4by
   socket: /tmp/mysql.sock
