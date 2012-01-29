@@ -7,12 +7,12 @@ Wingmaze::Application.routes.draw do
   match "methods" => "welcome#methods"
   match "testimonials" => "welcome#testimonials"
   
-  resources :enquiries do 
+  resources :enquiries, :only => [:new, :create] do 
     collection do
       get 'thank_you'
     end
   end
-  
+
   root :to => "welcome#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
