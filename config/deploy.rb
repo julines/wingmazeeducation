@@ -9,7 +9,7 @@ set :application, 'wingmazeeducation'
 # the rest should be good
 set :repository,  "git@github.com:julines/wingmazeeducation.git"
 set :deploy_to, "/home/#{user}/#{applicationdir}"
-set :deploy_via, :remote_cache
+set :deploy_via, :copy
 set :scm, 'git'
 set :branch, 'master'
 set :git_shallow_clone, 1
