@@ -6,6 +6,8 @@ Wingmaze::Application.routes.draw do
   match "prices" => "welcome#prices"
   match "methods" => "welcome#methods"
   match "testimonials" => "welcome#testimonials"
+  match "tutor_profiles" => "welcome#tutor_profiles"
+  match "timetables" => "welcome#timetables"
   
   resources :enquiries, :only => [:new, :create] do 
     collection do
