@@ -6,6 +6,12 @@ class WelcomeController < ApplicationController
   def testimonials
   end
   
+  def tutor_profiles
+  end
+  
+  def timetables
+  end
+  
   def methods
   end
   
