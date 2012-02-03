@@ -226,51 +226,11 @@ div.rightDiv {float:left;height:100%;width:50%; }*/
 .Contents strong {color:#0000FF;}
 .Contents #next {margin: auto 8em auto; padding:0.1em; list-style-type: square;}
 .Contents .testimonial {width:75%;text-align:justify;font-size:1.2em;border:2px solid;border-radius: 10px;border-color:#5599F7;margin:1em;margin-left:auto;margin-right:auto;padding:0.5em;background-color:#C4DCFD;font-style:italic}
-.Contents form.patient{text-align:left; width:822px;}
-.Contents form.patient table {border-collapse:collapse;border-color:#DBD3C2 #DBD3C2 #4D483C;border-spacing:0;border-style:solid;border-width:1px;font-size:0.9em;margin:1em 0;}
-.Contents form.patient table td label {text-align:left; font-size:1.1em;}
-.Contents form.patient table td, .Contents form.patient table th {background:none repeat scroll 0 0 transparent;border:1px solid #DBD3C2;font-size:1.2em;margin:0;padding:0.6em; text-align:left;}
-.Contents form.patient h2{color:#CE1126;font-size:1.8em; font-weight:normal; text-transform:normal;padding-top:1em;}
-.Contents form.patient hr {background-color:#DBD3C2;border:0 none;clear:both;display:block;height:1px;margin:0.5em 0;}
-.Contents form.patient div.leftDiv{float:left;height:100%;width:50%;}
-.Contents form.patient div.leftDiv h3{color:#CE1126;font-size:1.4em;font-weight:bold;margin:2em 0 0;}
-.Contents form.patient div.leftDiv p{font-size:1.1em; color:#333; text-align:left;}
-.Contents form.patient div.leftDiv div.diff_base {font-size:1.3em;font-weight:bold; text-align:left;}
-.Contents form.patient div.leftDiv div.diff_prev {font-size:1.3em;font-weight:bold; text-align:left;}
-.Contents form.patient div.leftDiv div.NegVal {color:#FB0000;}
-.Contents form.patient div.leftDiv div.PosVal{color:#006400;}
-.Contents form.patient div.leftDiv div.chart{border:2px solid black;height:200px;width:350px;}
-.Contents form.patient div.leftDiv h3{color:#CE1126;font-size:1.4em;font-weight:bold;margin:2em 0 0;}
-.Contents form.patient div.leftDiv table th{background:none repeat scroll 0 0 #FAE0A9;border-color:#DBD3C2 ;border-style:solid;border-width:1px;font-weight:bold;vertical-align:middle;padding:0.4em;margin:0;}
-.Contents form.patient div.leftDiv table th label{font-size:1.1em; color:#333;}
-.Contents form.patient div.leftDiv table td{background:none repeat scroll 0 0 transparent;border:1px solid #DBD3C2;font-size:1.2em;margin:0;padding:0.4em;}
-.Contents form.patient div.leftDiv table td input{font-size:1.2em;}
-.Contents form.patient div.rightDiv{float:right;height:100%;width:50%;}
-.Contents form.patient div.rightDiv h3{color:#CE1126;font-size:1.4em;font-weight:bold;margin:2em 0 0;}
-.Contents form.patient div.rightDiv p{font-size:1.1em; color:#333; text-align:left;}
-.Contents form.patient div.rightDiv div.diff_base {font-size:1.3em;font-weight:bold; text-align:left;}
-.Contents form.patient div.rightDiv div.diff_prev {font-size:1.3em;font-weight:bold; text-align:left;}
-.Contents form.patient div.rightDiv div.NegVal {color:#FB0000;}
-.Contents form.patient div.rightDiv div.PosVal{color:#006400;}
-.Contents form.patient div.rightDiv div.chart{border:2px solid black;height:200px;width:350px;}
-.Contents form.patient div.rightDiv h3{color:#CE1126;font-size:1.4em;font-weight:bold;margin:2em 0 0;}
-.Contents form.patient div.rightDiv table th{background:none repeat scroll 0 0 #FAE0A9;border-color:#DBD3C2 ;border-style:solid;border-width:1px;font-weight:bold;vertical-align:middle;padding:0.4em;margin:0;}
-.Contents form.patient div.rightDiv table th label{font-size:1.1em; color:#333;}
-.Contents form.patient div.rightDiv table td{background:none repeat scroll 0 0 transparent;border:1px solid #DBD3C2;font-size:1.2em;margin:0;padding:0.4em;}
-.Contents form.patient div.rightDiv table td input{font-size:1.2em;}
-.Contents form.patient input.submit {font-size: 1em;color: #fff;height:1.727em;background:#12416c;padding-left:0.4em;padding-right:0.4em;text-transform:uppercase;border:none;height:28px;text-align: center; cursor:pointer; width:auto;}
-.Contents form.patient input.submit:hover {background-color:#355d82;text-decoration:underline; cursor:pointer;}
-.Contents form.patient input.finalise {font-size: 1em;color: #fff;height:1.727em;background:#ce1126;padding-left:0.4em;padding-right:0.4em;text-transform: uppercase;border: none;height:28px;text-align:center; cursor:pointer; width:auto;}
-.Contents form.patient input.finalise:hover {background-color: #d53447;text-decoration: underline; cursor:pointer;}
-.Contents form.patient p#submit_buttons {padding-top:1em;}
+.Contents table th{background-color:#C4DCFD;}
+.Contents table, th, td{font-size: 1.1em; margin:0.5em; padding:0.5em; border: 1px solid;}
+
 
 #results {font-size: 1.5em;}
-
-/* ##### Visit Style ##### */
-.Contents div#show_visit{text-align:left; width:822px;}
-.Contents div#show_visit h2 {color:#CE1126;font-size:1.8em; font-weight:normal; text-transform:normal;padding-top:1em;}
-.Contents div#left{float:left;height:100%;width:50%;}
-.Contents div#right{float:right;height:100%;width:50%;}
 
 /* ##### Footer area ##### */
 .Footer_Container {height:40px; background-color:#12416c; clear:both; line-height:40px; border-top:5px solid #d8d8d8; color:#fff; margin-top:3em;}
