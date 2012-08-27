@@ -27,6 +27,9 @@ class WelcomeController < ApplicationController
   def contact
   end
   
+  def teachers
+  end
+  
   private
   def set_active_tab
     @active_tab = action_name.blank? ? '' : action_name.to_s

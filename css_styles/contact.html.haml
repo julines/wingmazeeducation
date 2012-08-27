@@ -1,0 +1,41 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=iso-8859-1", "http-equiv" => "Content-Type"}/
+    %title 1.Our Methods
+    %link{:href => "css/stylesheet.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #wraper
+      #header
+        .header_top
+          %a{:href => "#"}
+        .header_menu
+          %ul
+            %li
+              %a{:href => "#"} Our Methods
+            %li
+              %a{:href => "#"} Testimonials
+            %li
+              %a{:href => "#"} Teachers
+            %li
+              %a{:href => "#"} Location
+            %li
+              %a{:href => "#"} Contact
+          .clr
+        .clr
+      #content
+        .content_top2
+          %p Please do not hestitate to contact Wingmaze Education. You can fill in the form below with your contact details and a description of your enquiry.
+        .contact
+          .contact_top
+          .contact_mid
+            .contact_ineer
+              = render "form"
+            .clr
+          .contact_bottom
+        .thankyou
+          %p Thank you for your enquiry, we will be in contact with you shortly.
+        .thankyou2
+          %p Please fill in the requied information.
+        .clr
+      .clr

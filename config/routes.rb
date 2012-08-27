@@ -1,13 +1,11 @@
 Wingmaze::Application.routes.draw do
     
-  match "contact" => "welcome#contact"
-  match "careers" => "welcome#careers"
+  resources :settings
+
+  match "contact" => "enquiries#new"
   match "location" => "welcome#location"
-  match "prices" => "welcome#prices"
-  match "methods" => "welcome#methods"
   match "testimonials" => "welcome#testimonials"
-  match "tutor_profiles" => "welcome#tutor_profiles"
-  match "timetables" => "welcome#timetables"
+  match "teachers" => "welcome#teachers"
   
   resources :enquiries, :only => [:new, :create] do 
     collection do

@@ -1,0 +1,86 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=iso-8859-1", "http-equiv" => "Content-Type"}/
+    %title 2.Testimonials
+    %link{:href => "css/stylesheet.css", :rel => "stylesheet", :type => "text/css"}/
+    %script{:src => "js/jquery.js", :type => "text/javascript"}
+    %script{:src => "js/easySlider1.7.js", :type => "text/javascript"}
+    :javascript
+      $(document).ready(function(){	
+      	$("#slider").easySlider({
+      		auto: true, 
+      		continuous: true,
+      		numeric: true
+      	});
+      });	
+	    %link{:href => "css/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #wraper
+      #header
+        .header_top
+          %a{:href => "#"}
+        .header_menu
+          %ul
+            %li
+              %a{:href => "#"} Our Methods
+            %li
+              %a{:href => "#"} Testimonials
+            %li
+              %a{:href => "#"} Teachers
+            %li
+              %a{:href => "#"} Location
+            %li
+              %a{:href => "#"} Contact
+          .clr
+        .clr
+      #content
+        .testterminal
+          .testterminal_top
+          .testterminal_mid
+            .photo
+              .photo_left
+                %img{:alt => "#", :src => "images/Testimonials_photo.png"}/
+                %label David Zhou
+                %p [Text from David Zhou interview]
+                .clr
+              .photo_right
+                %h4
+                  Congratulations Wingmaze 2011 graduate David Zhou!
+                %ul
+                  %li Equal Dux of NSW (ATAR 99.95)
+                  %li 2nd in the state for Mathematics
+                  %li 10th in the state for Physics
+              .clr
+            .clr
+          .testterminal_bottom
+          .clr
+        .test
+          %p Wingmaze employs exceptionally qualified and passionate teachers.
+          %p We are determined that our students unleash their ambition, and achieve all their goals, whether they are aiming to dux the state, or enter the university course of their choice.
+        .slider_outer
+          #slider
+            %ul
+              %li
+                %p
+                  “Wingmaze has had a great impact on my overall success at school. Great teachers, excellent notes and challenging questions push you to do your best. The small class sizes give you a better learning experience, and an advantage over your classmates. It's no surprise that Wingmaze students are the highest achievers!”
+                  \- Rojda Daj
+              %li
+                %p
+                  “I highly recommend Wingmaze Education. Their ability to connect with students, simplify concepts as well as advanced topics are all superior. My marks have improved dramatically since I began tutoring at Wingmaze. I look forward to another year of successful tutoring.”
+                  \- Alex Boyadijan
+              %li
+                %p
+                  “Wingmaze Education is extremely helpful in assisting me in developing lateral thinking skills in accelerated maths. They have taught me how to approach questions in different ways, which has improved my results. Wingmaze has staff that take their time to explain questions when I have been uncertain. I would highly recommend their teaching service, especially to anybody who is looking to excel in their studies.”
+                  \- Emile Khriech
+              %li
+                %p
+                  “Wingmaze has strongly assisted me in not only discovering the skills and knowledge I attained but they have taught me to apply it to my studies. They have provided me with the motivation (which I lacked) and have inspired me to achieve high results, as well as excel dramatically in my final year of schooling.”
+                  \- Sarah Radwan
+              %li
+                %p
+                  “I was tutored for Math at Wingmaze Education, preparing for my Electrical Apprenticeship. I walked away at the end of my classes feeling confident and on track to achieving my goals.
+                  I’ve always hated anything to do with numbers. Wingmaze Education has made me believe in myself and become comfortable dealing with numbers. Wingmaze Education has been a great investment of my time and money. I highly recommend Wingmaze Education to anyone as they have integrity and dedication. I will continue to use their services in the future.”
+                  \- Iopu Iu
+        .clr
+      .clr

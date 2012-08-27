@@ -1,0 +1,210 @@
+
+*{ margin:0px; padding:0px;}
+
+a, img{ border:0px none;}
+ul, li{ list-style: none;}
+a{ display:block; text-decoration:none;}
+.clr{ clear:both;}
+body{ font-size: 18px;font-family:Calibri;}
+
+#wraper{ width:780px; margin:auto; padding-bottom:75px;}
+
+#header{ width:754px; padding:0px 22px;}
+
+.header_top{ padding-left:242px; width:512px; height:227px;}
+
+.header_top a{ background:url(../images/sprits.png) -0px -0px; width:264px; height:203px;}
+
+.header_menu{ width:754px; margin-bottom:21px;}
+
+.header_menu ul li{ float:left; padding-right:5px;}
+
+.header_menu ul li a{ width:145px; height:24px; text-align:center; line-height:24px; background:url(../images/sprits.png) -309px -0px; color:#FFF;}
+
+.header_menu ul li a:hover {background:url(../images/sprits.png) -309px -28px;}
+
+#content{ width:780px;}
+
+.content_top{ width:754px; padding:0px 16px;}
+
+.content_top p{ line-height:38px;}
+
+.content_mid{ width:780px;}
+
+.content_mid h3{ font-size:21px; color:#008ed4;}
+
+.content_mid_left{ width:370px; float:left;}
+
+.teacher{ width:370px; }
+
+
+
+
+
+.teacher_top{ width:340px; background:url(../images/techer_ouality_top.png) no-repeat; height:50px; padding:21px 0px 0px 29px;}
+
+.teacher_mid{ width:315px; background:url(../images/techer_ouality_rpt.png) repeat-y; padding:0px 25px 5px 29px; }
+
+.teacher_mid ul{ padding-left:14px;}
+
+.teacher_mid ul li{ list-style:disc;}
+
+.teacher_bottom{ width:370px; background:url(../images/techer_ouality_bottom.png) no-repeat; height:26px;}
+
+
+.teacher2{ width:342px;}
+
+.teacher2_top{ width:340px; background:url(../images/classsize_top.png) no-repeat; height:47px; padding:21px 0px 0px 29px;}
+
+.teacher2_mid{ width:308px; background:url(../images/classsize_rpt.png) repeat-y; padding:0px 25px 7px 29px; }
+
+.teacher2_mid ul{ padding-left:14px; padding-bottom:28px;}
+
+.teacher2_mid ul li{ list-style:disc;}
+
+.teacher2_bottom{ width:370px; background:url(../images/classsize_bottom.png) no-repeat; height:33px;}
+
+
+
+.content_mid_right{ width:394px; float:left;}
+
+.subject{ width:394px;}
+
+.subject_top{ width:350px; background:url(../images/subject_top.png) no-repeat; height:50px; padding:21px 11px 0px 33px;}
+
+.subject_mid{ width:350px; background:url(../images/subject_rpt.png) repeat-y; padding:0px 11px 7px 33px;}
+
+.subject_mid ul{ padding-left:18px;}
+
+.subject_mid ul li{ list-style:disc;}
+
+.subject_mid ul li.forth_li{ list-style:none;}
+
+.subject_mid ul li ul{ padding-left:46px;}
+
+.subject_mid ul li span{ display:block; padding-left:35px;}
+
+.subject_bottom{ width:394px; background:url(../images/subject_bottom.png) no-repeat; height:36px;}
+
+.subject2_mid{ width:343px; background:url(../images/subject_rpt.png) repeat-y; padding:0px 18px 35px 33px;}
+
+.subject2_mid ul{ padding-left:18px;}
+
+.subject2_mid ul li{ list-style:disc;}
+
+.subject2_mid p{ padding-left:7px;}
+
+.content_bottom{ width:754px; padding:0px 16px 0px;}
+
+.testterminal{ width:780px;}
+
+.testterminal_top{ width:780px; background:url(../images/Testimonials_top.png) no-repeat; height:39px;}
+
+.testterminal_mid{ width:780px; background:url(../images/Testimonials_mid.png) repeat-y; }
+
+
+.testterminal_bottom{ width:780px; background:url(../images/Testimonials_bottom.png) no-repeat; height:41px;}
+
+.photo{ width:750px; padding:0px 15px;}
+
+.photo_left{ width:245px; float:left; text-align:center; float:left;}
+
+.photo_left label{ display:block; padding-bottom:35px;}
+
+
+.photo_left p{ width:245px; min-height:140px;}
+
+
+
+.photo_right{ width:504px; float:left;}
+
+.photo_right h4{ font-size:21px; font-weight:normal; color:#2b3990; padding-bottom:25px;}
+
+.photo_right ul{ padding-left:53px;}
+
+.photo_right ul li{ list-style:disc;}
+
+.test{ width:750px; padding:0px 15px;}
+
+.test p{ padding-bottom:21px;}
+
+.slider_outer{ background:url(../images/slider_outer.png) no-repeat; height:218px; width:747px; padding:39px 14px 0px 19px; position:relative;}
+
+
+#slider{ width:747px; height:177px;}
+
+#slider ul li{ width:747px; height:177px; background:url(../images/slider_bg.png) no-repeat;  }
+
+
+#slider ul li p{ width:704px; padding:10px 21px 0px 21px;}
+
+.head{ width:780px;}
+
+.head_top{ width:780px; background:url(../images/Teachers_top.png) no-repeat; height:27px;}
+
+
+.head_mid{ width:780px; background:url(../images/Teachers_mid.png) repeat-y; }
+
+.head_bottom{ width:780px; background:url(../images/Teachers_bottom.png) no-repeat; height:25px;}
+
+.head_mid_inner{ width:703px; padding:3px 49px 7px 28px;}
+
+.head_mid_inner h4{ color:#008ed4; font-size:21px; font-weight:normal; float:left;}
+
+
+.head_mid_inner img{ float:right;}
+
+
+.content_top2{ width:754px; padding:0px 15px;}
+
+.content_top2 p{ line-height:21px;}
+
+
+.contact{ width:780px; padding-bottom:21px;}
+
+.contact_top{ width:780px; background:url(../images/Contact_top.png) no-repeat; height:62px;}
+
+.contact_mid{ width:780px; background:url(../images/Contact_mid.png) repeat-y; }
+
+.contact_bottom{ width:780px; background:url(../images/Contact_bottom.png) no-repeat; height:50px;}
+
+.contact_ineer{ width:750px; padding:0px 15px;}
+
+.contact_inner_left{ width:374px; float:left;}
+
+.contact_inner_left ul li{ float:left; padding-bottom:28px;}
+
+.contact_inner_left ul li span{ color:#FF0000; float:left; text-align:right; display:inline;}
+
+.contact_inner_left ul li label{ display:block; float:left; width:123px; margin-right:20px; color:#FFF; text-align:right;}
+
+.name{ width:183px; height:25px; padding:3px; background:url(../images/sprits.png) -0px -217px; float:left;}
+
+.name input{ background:none; border:none; width:180px; height:24px; line-height:24px;}
+
+
+.name2{ padding-left:168px;}
+
+
+.contact_inner_right{ width:364px; float:left;}
+
+.contact_inner_right ul li{ float:left; padding-bottom:28px;}
+
+.contact_inner_right ul li label{ display:block; float:left; width:63px; margin-right:20px; color:#FFF; text-align:right; line-height:24px;}
+
+.name3{ width:260px; height:24px; padding:3px; background:url(../images/sprits.png) -0px -257px; float:left;}
+
+.name3 input{ background:none; border:none; width:255px; height:24px; line-height:24px;}
+
+.name4{ width:260px; height:266px; padding:3px; background: url(../images/Contact_area_bg.png) no-repeat; float:left;}
+
+
+.name4 textarea{ background:none; border:none; width:255px; height:266px; resize:none;}
+
+
+.thankyou{ background:url(../images/Contact_div1_bg.png) no-repeat; width:496px; height:49px; text-align:center; line-height:49px; color:#FFF; margin: 7px auto;}
+
+.thankyou2{ background:url(../images/Contact_div2_bg.png) no-repeat; width:287px; height:46px; text-align:center; line-height:46px; color:#FFF; margin:auto;}
+
+
+.mape{ width:750px; padding:7px 15px;}
